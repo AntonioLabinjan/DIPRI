@@ -160,4 +160,221 @@ Tu ću pisat detaljan scenarij za igricu jer ako čekan druge da to naprave; ne 
 2. "It’s soft. Like life, if you don’t fall off balconies." (high success chance if followed by next line)
 3. "Dinner’s free for those who stay alive." (guaranteed success)
 
- 
+
+Here is the **complete English dialogue tree** for the quest **"Night Drip" (Noćna kapljica)**, structured chronologically with all branches and player choices included. It reflects the mysterious, looping atmosphere of the quest and supports replayability.
+
+---
+
+## **"Night Drip" – Dialogue Tree (English)**
+
+**\[Quest Begins – Player enters dimly lit bar, jukebox hums softly in the background]**
+
+**Joža (leaning over the counter, swaying slightly):**
+"Come on, be a good sport and bring me that bottle. You know which one I mean."
+**\[Pause – smirks vaguely]**
+"Not the one that sings. The one that smells like the end of summer."
+
+**\[Player heads into storage – finds 3 bottles, each unlabeled and unfamiliar. Must choose one.]**
+
+---
+
+## **Player Brings a Bottle to Joža**
+
+**Joža (accepts it, inspecting):**
+"Hah. Bold choice."
+**(or)**
+"...Well, well. That’s a dangerous one."
+
+**\[Joža pours a drink for himself, takes a sip, and reacts according to bottle contents:]**
+
+---
+
+### **1. NEUTRAL OUTCOME – Gemišt (white wine + sparkling water)**
+
+**Joža (sighs nostalgically):**
+"Aaaaah, this one’s like a lazy Sunday afternoon… quiet, useless, and full of ghosts."
+
+**\[Optional: Player can choose to drink as well]**
+
+> **If Player Drinks:**
+
+**Joža (becomes talkative, but confusing):**
+"You know, people always forget the second floor used to be a chapel. That’s why the plumbing hates Wednesdays."
+"They sealed the mirror behind the mirror, but not the cracks behind the cracks."
+"Ever hear humming in the vents? That’s not the wind, friend."
+
+> **If Player Does NOT Drink:**
+
+**Joža (shrugs):**
+"Suit yourself. No taste for memory, eh?"
+**\[He continues mumbling cryptic things under his breath while wiping glasses.]**
+
+---
+
+### **2. NEGATIVE OUTCOME – Black Rum**
+
+**Joža (gulps, grimaces):**
+"Now *this* is a mistake in a bottle. Just the way I like it."
+
+**\[Environment starts to shift – lighting flickers, camera distorts. Brief hallucinations occur.]**
+
+**Joža (voice echoes unnaturally):**
+"You shouldn’t have brought this one."
+"Funny thing is… it remembers *you*."
+**\[Whispers in the background: unintelligible phrases or names the player recognizes from previous gameplay]**
+
+**\[Optional: Player can drink too]**
+
+> **If Player Drinks:**
+
+**\[Screen warps further. Player control becomes erratic for 2 minutes. Entity flickers in background hallways.]**
+
+**Joža (distorted):**
+"You’re not the first one to drink this… and you know what? The last one still hasn’t woken up."
+
+> **If Player Does NOT Drink:**
+
+**Joža:**
+"Smart. You might actually make it through the week."
+"But then again… maybe you already drank it. Maybe this is the dream."
+
+---
+
+### **3. POSITIVE OUTCOME – Green Shot**
+
+**Joža (grins widely):**
+"Oh-ho! You brought *that* one."
+"Be careful. It’s just for a short while, you know\... the hotel doesn’t like it when you’re faster than it."
+
+**\[Optional: Player can drink too]**
+
+> **If Player Drinks:**
+
+**\[Screen colors intensify briefly. Movement becomes swift and smooth. +Speed/Reflex boost for 2 minutes]**
+
+**Joža:**
+"Run while you can. Doors tend to behave while you're quick. For a while."
+"Just don’t let the walls catch up."
+
+> **If Player Does NOT Drink:**
+
+**Joža (disappointed):**
+"Wasted gift, that one. Don’t expect a second chance from the bottle."
+
+---
+
+## **General End-of-Interaction Dialogue (random chance, regardless of choice)**
+
+**Joža (leans in, voice low):**
+"You’re not the first one to drink this… and you know what? The last one still hasn’t woken up."
+
+**Joža (if in a good mood):**
+"Come back tomorrow. Or whenever the jukebox changes its tune."
+
+**Joža (if annoyed):**
+"Next time, read the bottle’s silence before you bring it."
+
+---
+
+## **Summary of Player Choices**
+
+1. **Which bottle to bring** → Randomized visual appearance; each corresponds to:
+
+   * Gemišt (neutral/story clues)
+   * Black Rum (hallucinations and disorientation)
+   * Green Shot (temporary gameplay boost)
+
+2. **Whether to drink or refuse** →
+
+   * Drink: Triggers effect tied to that bottle
+   * Refuse: Prevents effect, alters Joža’s attitude and lines
+
+---
+
+“Where’s That Tray Now?”
+
+---
+
+**Quest Start – Joža greets you, panicking:**
+
+Joža:
+"Hurry up, the bar is a mess!"
+"In a minute, you need to bring me the tray, you know, the black one with the scratch in the middle — I won’t even carry a glass of water without it!"
+"It’s somewhere in the cupboard behind the bar… I hope."
+
+**\[Timer starts – player begins searching cupboards]**
+
+---
+
+**If player finds the correct tray in time:**
+
+Joža (relieved):
+"Ahhh, now we can get to work. You're not completely useless."
+"Here, take this. Don’t lose it — or do, I don’t care."
+
+\[Player receives mysterious item]
+
+---
+
+**If player fails to find the tray in time:**
+
+Joža (resigned):
+"Oh well, we'll serve it on the cutting board again."
+"At least we won't be lying to them..."
+
+\[No reward, but the player hears a strange sound from an unopened cupboard]
+
+---
+
+“Serving from Memory”**
+
+---
+
+**Quest Start – Vjeko greets you bluntly:**
+
+Vjeko:
+"My assistant left."
+"You’re stepping in now."
+"The guests don’t like to wait."
+"Watch closely. You’ll only see it once."
+
+\[Order appears briefly on the wall — then disappears]
+
+---
+
+**During the task (if player is slow or makes mistakes):**
+
+Vjeko (grumbling):
+"That’s not how it looked."
+"Focus!"
+"You're wasting time."
+"Have you ever seen a plate before?"
+
+---
+
+**If player makes multiple mistakes or runs out of time:**
+
+Vjeko (angrily):
+"Enough. Get out of my kitchen."
+"I’ll finish this before the food dies of boredom."
+\[Player is kicked out of the kitchen / may lose sanity]
+
+---
+
+**If player completes all orders correctly:**
+
+Vjeko (nods silently):
+"...Hmph."
+"You might be useful after all."
+\[He opens a hidden passage behind the fridge]
+
+Vjeko (quietly):
+"You didn’t see me do this."
+
+\[Player gains access to a secret area or hidden clue]
+
+---
+
+Let me know if you'd like alternative lines for multiple completions or partial success.
+
+
