@@ -374,7 +374,588 @@ Vjeko (quietly):
 \[Player gains access to a secret area or hidden clue]
 
 ---
+“Deductive Cooking on an Induction Stove”
 
-Let me know if you'd like alternative lines for multiple completions or partial success.
+---
+
+### **Quest Introduction (Vjeko doesn’t speak initially)**
+
+> *\[Player reads the riddle on the kitchen wall]*
+> “Dinner from the doorstep of dreams”
+> — A red heart that chills when it’s torn apart.
+> — Fire hidden beneath delicate skin.
+> — The silence of the forest, dangerous to the careless.
+> Sour it all with a bit of juice.
+> Serve in this order: red in the center, green on the left, brown on the right.
+
+---
+
+### **During Cooking – Optional Vjeko Comments (random chance)**
+
+Vjeko (muttering):
+
+* "It’s not just cooking. It’s reading the ingredients of the soul."
+* "Too fast, and you’ll miss it. Too slow, and it dies on the plate."
+* "If the food screams, that’s on you."
+
+---
+
+### **When player serves the dish correctly:**
+
+> *\[A soft sound is heard, no scream. Light glows from the dish.]*
+
+Vjeko (softly):
+"...You listened."
+"You might survive this place after all."
+
+> *\[Player gains sanity and a journal note]*
+> Vjeko:
+> "I’ve left a note. Read it when the kitchen’s quiet."
+
+---
+
+### **When player makes a mistake (wrong ingredients or wrong positions):**
+
+> *\[A horrible scream erupts from the plate. Dish shakes on the table.]*
+
+Vjeko (harshly):
+"You heard that, didn’t you?"
+"It’s not just food that feels pain in this hotel."
+"You’re not ready. Not yet."
+
+> *\[Player loses sanity]*
+
+---
+
+**“Evil and Upside-Down: Postal Edition”**
+
+---
+
+### **Quest Start**
+
+**Drago (gruffly, handing you an envelope):**
+“Take this to room 903.”
+“No questions. Just go.”
+
+---
+
+### **(Optional Player Interaction — if player talks to Drago again before solving)**
+
+**Drago (impatiently):**
+“You still here? Room 903. Go.”
+—or—
+“Do I look like I have time to explain numbers now?”
+
+---
+
+### **(Optional — when player examines the envelope manually)**
+
+> *\[Player rotates or inspects envelope — sees number clearly as "903", but upside-down it reads "306"]*
+
+(No dialogue — only visual realization)
+
+---
+
+### **Correct Room Reached: 306**
+
+**Resident of Room 306 (calmly):**
+“…Ah. You figured it out.”
+“You’re learning how this place works.”
+*The person accepts the envelope.*
+
+**Resident (smiling faintly):**
+“Sometimes everything is upside down, and that’s the only way you move forward.”
+
+> *\[Player gains sanity and receives a clue]*
+
+---
+
+### **Wrong Room (any attempt to interact with non-existent 903 or knock on wrong doors)**
+
+**(No response. Empty hallway. Just flickering lights and silence.)**
+
+**Player internal monologue (optional flavor):**
+“Room 903 doesn’t exist… Am I going crazy, or is something else going on?”
 
 
+**“Bag Between the Lines”**
+
+
+### **Quest Start — Drago hands you the bag**
+
+**Drago (quietly, pulling you aside):**
+“Take this to the guest’s room... hmm... 504? Or maybe 405. You know the one — quiet, always in the same suit. He’ll know.”
+
+---
+
+### **At Room 504 — Pale Man with Gun**
+
+**You:**
+“Excuse me, did you lose this bag?”
+
+**Pale Man (expressionless, dark circles under eyes):**
+“I didn’t lose my bag. I lost everything.”
+
+*(No further interaction; doors can be closed)*
+
+---
+
+### **At Room 405 — Calm Man**
+
+**You:**
+“Is this your bag?”
+
+**Calm Man (smiling, grateful):**
+“Yes, it’s mine. Thank you.”
+
+*(He takes the bag and closes the door)*
+
+---
+
+### **After hearing the gunshot from Room 504**
+
+*(No dialogue, only ambient sound: a dull gunshot)*
+
+---
+
+### **Return to Drago**
+
+**Drago (without looking up):**
+“Just so you know\... the room you first left... it is not occupied anymore.”
+
+*(Then adds with a faint smile)*
+
+**Drago:**
+“If you ever need a place to rest…”
+
+---
+
+### **If player interacts with the newly unlocked neutral room later**
+
+*(No NPC dialogue, but player can find a note or journal entry)*
+
+**Journal note added:**
+“Some rooms become free only when no one is searching for them anymore.”
+
+---
+
+“Order by Numbers”** given by **Maid Mila** in Room 307:
+
+---
+
+### **Quest Start — Mila sends you to the room**
+
+**Mila (cold, strict):**
+“It’s chaos over there. I expect perfect order. No mistakes.”
+
+---
+
+### **During the task — if player places a wrong item**
+
+*(Lights suddenly go out, room becomes pitch black)*
+
+**Mila’s voice (whispering from the hallway):**
+“Perfection is mandatory.”
+
+*(Creepy ambient sounds: floor creaks, soft sighs, dripping water)*
+
+---
+
+### **After player completes the task perfectly**
+
+*(Lights turn back on, door quietly unlocks)*
+
+**Mila (standing silently with a slight smile):**
+“You’ll practice this some more. But for now… you can go.”
+
+---
+
+### **When “Mila’s Checklist” item is unlocked**
+
+*(No NPC dialogue; a journal/notepad opens for player use)*
+
+**Journal entry description:**
+“A small notepad for organizing clues and thoughts. Order and structure help distinguish hallucinations from reality.”
+
+---
+
+**“Clean the Hallway Floor”** 
+---
+
+### **Quest Start — Mila gives you the task**
+
+**Mila (friendly, slightly teasing):**
+“Oh, darling, you need to clean the floor here. The cleaning stations are at the end of the hallway, just don’t forget these spots. If you want everything to be OK, it should be done before you head to the rooms.”
+
+*(Hands you a mop and bucket, and points to where to start)*
+
+---
+
+### **During cleaning — Player can notice different hallway parts**
+
+*(No direct dialogue, but player observes:)*
+
+* **Starting area:** Normal, everything looks fine.
+* **Middle area:** The stone floor is slippery — be careful.
+* **End area:** Near the guard’s room door, the floor is very slippery — could be important later.
+
+---
+
+### **After finishing cleaning**
+
+**Mila (calling from distance):**
+“Just remember. Floor is clean now. And you’re even cleaner.”
+
+---
+
+### **If player tries to sneak past guard immediately after cleaning**
+
+*(No direct dialogue, but narrative description)*
+“The guard slips on the wet floor and falls down — you gain a small advantage for future encounters.”
+
+---
+
+### **Effect reward description**
+
+“Effect: You have a slight advantage in upcoming encounters with the guard.”
+
+---
+
+**“Zaboravljena narudžba”** provided by Igor:
+
+---
+
+### **Quest Start — Encounter with Igor on the hallway**
+
+**Igor (nervous, avoiding eye contact, quieter than usual):**
+“Be good, go to the kitchen. My... standard order. The chef will know.”
+*(He quickly looks away, almost like he doesn’t want you to ask more.)*
+
+---
+
+### **Player enters the kitchen and sees the plate**
+
+*(Player sees a porcelain plate with a strange piece of meat on it. It almost looks alive, twitching slightly.)*
+
+---
+
+### **Returning to Igor with the plate**
+
+**Igor (frowning, voice low and sharp):**
+“Are you out of your mind? That’s not mine. I told you to pick up the order from room 27 and bring it to me.”
+*(He looks frustrated, maybe even a bit scared.)*
+
+---
+
+### **Player goes to room 27 and finds Igor inside**
+
+**Igor (already inside the room, takes the plate from you calmly):**
+“The order has already arrived, thank you.”
+*(He hands you a key, his voice softer but distant.)*
+“Take this… room 72. I’m not sure why, but you’ll understand soon enough.”
+
+---
+
+### **Player enters room 72**
+
+*(Inside, Igor sits quietly, eating something silently.)*
+
+**Igor (confused, almost whispering):**
+“I don’t understand anything anymore... I’ve seen you somewhere before, but I don’t know who you are. Actually... who am I?”
+*(He looks lost, eyes full of doubt.)*
+
+---
+
+### **After quest completion — mysterious NPC passes by**
+
+*(As you walk away, a stranger passes beside you, a face you don’t recognize.)*
+
+**Stranger (casual, smiling faintly):**
+“Hi, Igor. I was just talking to Igor about you.”
+*(They vanish around the corner, leaving you puzzled.)*
+
+---
+
+### **Player’s thoughts / narration**
+
+*You start to wonder… how many Igors are there? Does he even exist? Then it hits you — you’ve seen Igor before, just dressed differently…*
+
+---
+
+### **Sanity effect**
+
+*You feel your mind unravel slightly, as if reality just shifted — sanity -xyz%*
+
+---
+
+*“Zalijevanje biljaka”** — provided by Mislav
+
+---
+
+**Mislav:**
+*“Come with me. It’s time to feed them. Just... don’t make a mistake. They remember.”*
+
+*(You start watering the plants silently.)*
+
+**Mislav:** *(watching quietly, no words)*
+
+*(After you finish watering in the correct order, he finally speaks.)*
+
+**Mislav:**
+*(without a word, he hands you an apple)*
+
+*(You eat the apple, feeling a brief relief.)*
+
+*(Suddenly the plants seem to whisper a chilling sentence…)*
+
+**Plants (whispering):**
+*“You should have never come to this hotel.”*
+
+---
+
+*(If you make a mistake watering the plants in the wrong order, Mislav’s tone changes — cold and disappointed):*
+
+**Mislav:**
+*“…Be careful. They won’t forgive mistakes.”*
+
+*(He strikes you lightly with his shovel.)*
+
+*(You find yourself back at the start, the atmosphere slightly altered.)*
+
+---
+
+*(On repeated mistakes, his voice becomes more urgent, almost echoing in your mind):*
+
+**Mislav:**
+*“Focus... or lose yourself.”*
+
+*(The plants murmur indistinctly, growing louder and more distorted.)*
+
+---
+
+**“Biljni labirint”** by Mislav:
+
+---
+
+**Mislav:**
+*"I forgot the rake. It’s inside, in the middle. You know the way, right?"*
+
+*(You enter the labyrinth, silence all around.)*
+
+*(You find no one, only your footsteps and scattered traces.)*
+
+*(At the center, you spot the rake and the damp note.)*
+
+**You (reading quietly):**
+*"You’ll succeed. Even though it doesn’t seem like it, this makes sense. Everything will be fine."*
+
+*(A deep calm settles in.)*
+
+*(You turn back, feeling the path somehow shorter, lighter.)*
+
+---
+
+**“Choose a Floor, You’ll Surely Make a Mistake** - provided by Zdravko:
+
+---
+
+**Zdravko (in front of the broken elevator, tired and unenthusiastic):**
+*"It’s broken again. No going up, no going down, nothing. If you want to get further, fix it. The tool bag is over there. And… don’t touch the white wire. Just don’t."*
+
+*(While you’re inside the technical room working on the wires...)*
+
+**Zdravko (from outside, shouting nervously):**
+*"I told you not to touch the white one. There’s something strange about it… just strange."*
+
+*(After a few failed attempts, you hear a low buzzing and the panel seems to tremble.)*
+
+*(Once you succeed, the panel flashes and the elevator starts moving with a heavy metallic sound.)*
+
+**Zdravko (calmly, almost expressionless):**
+*"There it is. It’s working now. Don’t ask how. Just… use it wisely."*
+
+*(You step into the elevator, press a button. The ride feels real, but when the doors open…)*
+
+**You (whispering to yourself):**
+*"I keep moving, but never really leaving… or maybe I already left somewhere else."*
+
+*(You notice tiny differences around you — a picture changed, a room number flipped, a flower missing — but everything else is exactly the same.)*
+
+---
+
+**“Power Reroute”** by Mechanic Zdravko:
+
+---
+
+**Zdravko (calling you into the room filled with old electrical cabinets and tangled cables):**
+*"Listen, we need to redirect the power to get the defense system back online. You have no idea what lurks when the darkness falls. It’s all connected through this box... But it’s easy if you know what you’re doing. And you, you look like someone who’s going to blow everything up."*
+
+*(After you start turning the wheel as he instructs and everything suddenly goes dark)*
+
+**Zdravko (muttering more to himself than you):**
+*"Oh dang it, now we’ve shut off the power to the whole hotel. Surely no one can see a thing. They’re probably all just standing still, wondering what’s going on."*
+
+*(He quickly adds)*
+
+**Zdravko:**
+*"Well, try doing the same thing now, but in reverse order. Start with three to the right... then one to the left..."*
+
+*(After you restore power)*
+
+**Zdravko (nodding but silent):**
+*(No further words.)*
+
+---
+
+“H Gallery” by Painter Leon:
+
+Leon (kneeling before the portraits, without looking at you):
+"Help me arrange them. They have order. Even though they’ve all stepped out of it."
+
+(While you move the portraits around, you hear Leon’s murmured comments)
+
+Leon:
+"This one was just searching for sounds…"
+
+Leon:
+"She… was never able to stay silent."
+
+Leon:
+"Too much light in eyes. Faded away too fast."
+
+(When you place the portrait marked with “?” last, Leon finally speaks to it)
+
+Leon:
+"Who the hell are you, anyway?"
+
+(After you finish arranging all the portraits)
+
+Leon (whispering as he looks at the line of portraits):
+"They were all looking for the same thing. Just... in different places."
+
+(He smiles softly)
+
+Leon:
+"At the end of the day, you know... it’s all just a search for something warm under the skin."
+
+(Silence. You feel a shiver.)
+
+
+**“Family Portrait”** by Painter Leon:
+
+---
+
+**Leon (breathless, with paint-stained fingers and a lost look):**
+*"The time has come for the big canvas. A family portrait of the hotel. But... I can’t. My hand no longer remembers shapes. I need yours."*
+*(He hands you a brush and places a large white canvas in front of you.)*
+
+*(As you follow the arrow prompts, Leon encourages you.)*
+
+**Leon:**
+*"Well done, just like that. Your hand… remembers what was forgotten."*
+
+*(Throughout, the canvas is blurry — the colors swirl but no clear form appears.)*
+
+*(When you finish, Leon softly says:)*
+
+**Leon:**
+*"It is done. Look at it."*
+
+*(The blur clears, revealing a portrait of about ten Igors, all smiling, in identical poses, lined up like a family.)*
+
+*(You pause, Leon stays silent, then quietly says:)*
+
+**Leon:**
+*"Interesting… they are all the same. But no one knows he is not the only one."*
+
+*(A long silence follows.)*
+
+---
+
+*Later, you notice in the reflection of a window on the portrait — your own face, as if you accidentally “entered” the scene.*
+
+---
+
+**(You gain a small sanity boost.)**
+
+**Leon (voiceover, almost a whisper):**
+*"Now you know. Someone watches even when you paint."*
+
+---
+
+“I’m Running, I’m Leaving” by Porter:
+
+---
+
+**Porter (whispering in the lobby):**
+“Bro... I can’t take it anymore. I see traces of light in places where no light should be seen. Take my shift please. Just…carry these bags, please.”
+
+---
+
+*(After delivering all suitcases, Porter sits down and says quietly):*
+“You know\... once you start moving through the hotel, you realize the hallways aren’t there to lead you... but to keep you.”
+
+---
+
+“Shift Change” by Porter:
+
+---
+
+**Porter (pale, trembling, panicked):**
+“Bro, I can’t… I really can’t… I have to go, but I don’t have the strength… you need to help me… we just… we have to get to the roof.”
+
+---
+
+*(While you balance the boards, Porter nervously mutters or sighs, growing more anxious with each mistake)*
+
+---
+
+**Porter (once the boards are set correctly and he starts climbing):**
+“You know\... it was never clear what was out there. And now\... that’s it.”
+
+---
+
+*(You find his ID on the table, with the name “Igor” and the note “High, 175 cm”)*
+
+---
+
+“Dishwashing" by Vjeko:
+
+---
+
+**Cook (calling you to the kitchen):**
+“Hey, come here. I’ll give you a free meal if you wash the dishes. But listen—don’t let anyone see you. You have to keep it discreet.”
+
+---
+
+*(While washing dishes quietly)*
+“Good… steady hands. Keep it low, no sudden moves.”
+
+---
+
+*(If someone approaches)*
+“Hide that knife! No one can see you with that!”
+
+---
+
+*(If caught or noticed)*
+“Hey! What are you doing with that? Be careful, or you’ll cause trouble.”
+
+---
+
+*(When you finish)*
+“Well done. You kept it quiet, and that means something here. Here, take this.”
+
+---
+
+*(If you were very discreet)*
+“See? Sometimes control over small things keeps the mind calm.”
+
+---
+
+*(If you were careless and got noticed)*
+“Watch yourself next time. The kitchen’s no place for mistakes. It’ll get to your head.”
+
+---
+
+Zadnji; Nosi kofere gostima - nema dijalog
