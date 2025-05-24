@@ -1,1 +1,163 @@
 Tu ću pisat detaljan scenarij za igricu jer ako čekan druge da to naprave; ne bude nikad drugo
+
+
+## QUEST 1 - Lost and confused
+### **PHASE 1 – DETECTION AND TRACKING**
+
+**\[Quest Start Triggered – "Lost & Confused"]**
+
+**Thomas (walkie-talkie):**
+"Okay, listen. We’ve got a situation. Again."
+"Some clueless tourist from room 212 is wandering around talking to himself."
+"I just saw him on camera near the kitchen — looked like he was trying to open a freezer with a screwdriver."
+"We don’t *have* an ice cream machine. You need to find him before he breaks something. Or himself."
+
+**\[HUD objective appears: "Find the lost tourist before it’s too late"]**
+**\[Tourist’s health bar appears – slowly ticking down]**
+
+**Thomas:**
+"He was last seen near the kitchen. I think he knocked over a pan — sounded like a war zone."
+"I’ll ping you if anything else comes through."
+
+---
+
+**Ambient HUD text updates (randomized):**
+
+* "Something fell in the hallway in front of room 17."
+* "Sounds like he’s screaming from the laundry room."
+* "Someone just broke a plate in the kitchen."
+* "A fire alarm blinked near the lounge."
+* "There’s spilled soda by the vending machines."
+
+**Thomas (if player goes the wrong way):**
+
+* "Nope. Not that way."
+* "You're losing him. Come on."
+* "Try listening for the noise — not your gut."
+
+**Thomas (as health drops):**
+
+* "He's gonna hurt himself at this rate."
+* "Get to him already. Please."
+* "If he slips on juice one more time, I’m out."
+
+---
+
+### **PHASE 2 – CHASE & INTERCEPTION**
+
+**Thomas (walkie-talkie):**
+"He's sprinting now. Left a whole trail of destruction behind him."
+"Broken plates, open doors, knocked-over statue. You’re getting close."
+
+**Ambient cues (visual + sound):**
+
+* Loud crashing sound nearby
+* Shouting or mumbling: "Where’s the damn ice cream?"
+* Open pantry door swinging
+* Soda can rolling across the hallway
+
+**Thomas (urgency increasing):**
+"If you don’t catch him now, I’m quitting. Full stop."
+
+---
+
+### **PHASE 3 – STOPPING THE IDIOT**
+
+**\[Player reaches the tourist – he's standing at the edge of a balcony, dangerously close to falling]**
+
+**Tourist (intro line):**
+"They told me it was here… the machine… the ice cream machine! But every hallway’s a lie, and every door just leads to more doors!"
+
+**Thomas (walkie-talkie):**
+"If you don’t catch him now, I’m quitting. Full stop."
+
+---
+
+**First dialogue choices (player):**
+
+1. "Hey, don’t jump. The people who love you would be heartbroken."
+2. "There’s still so much life ahead of you — so many successes waiting for you."
+3. "Dinner’s free for those who stay alive."
+4. \[Use item: Throw pillow] (if available)
+
+---
+
+#### **Option 1: "Hey, don’t jump..."**
+
+**Tourist:**
+"What? I... I don’t even know if anyone knows I’m here. I didn’t even tell my mom I left."
+
+**Follow-up choices:**
+
+1. "You matter more than you think." (low success chance)
+2. "Come down and we’ll figure it out together." (medium success chance)
+3. "Dinner’s free for those who stay alive." (guaranteed success)
+
+---
+
+#### **Option 2: "There’s still so much life ahead..."**
+
+**Tourist:**
+"Success? I can’t even find a vending machine in this cursed place!"
+
+**Follow-up choices:**
+
+1. "This place is weird, but you’re not alone." (medium success chance)
+2. "Step back, I’ll find that ice cream for you myself." (low success chance)
+3. "Dinner’s free for those who stay alive." (guaranteed success)
+
+---
+
+#### **Option 3: "Dinner’s free for those who stay alive."**
+
+**Tourist:**
+"...Free dinner? Like… dessert too?"
+"...Okay. Yeah. I’m listening."
+
+---
+
+### **SUCCESS OUTCOME**
+
+**\[Player successfully intervenes. Health bar disappears. Quest completes.]**
+
+**Thomas (walkie-talkie):**
+"Thank GOD. I was two seconds from walking out. Get him to room 212 and lock the damn door."
+
+**Tourist (while walking back):**
+"Hey… uh… I saw something earlier. Something weird. You ever seen a guy in a rabbit suit crawling through the vents?"
+
+**\[Reward: +XYZ Sanity]**
+**\[Hint unlocked: "The tourist might have seen something — something he wasn’t supposed to."]**
+
+---
+
+### **FAILURE OUTCOME**
+
+**\[Health bar reaches zero or player chooses badly. Tourist falls.]**
+
+**Tourist:**
+"No one listens... no one ever listens."
+**\[Tourist slips and falls off balcony]**
+
+**Thomas (walkie-talkie):**
+"You had one job... I quit."
+
+**\[Quest Failed]**
+
+---
+
+### **OPTIONAL ACTION – THROW PILLOW**
+
+**\[Player uses item to interrupt tourist’s movement]**
+
+**Tourist:**
+"Wha—??" (stumbles, falls on his butt)
+"Did you just throw a pillow at me?"
+
+**Follow-up choices after throw:**
+
+1. "Yes. Because I care." (medium success chance)
+2. "It’s soft. Like life, if you don’t fall off balconies." (high success chance if followed by next line)
+3. "Dinner’s free for those who stay alive." (guaranteed success)
+
+ 
