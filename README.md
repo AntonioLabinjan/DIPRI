@@ -1,1 +1,1 @@
-todo:  dječja soba, portirna(recepcija)
+todo:  dječja soba (kinda done; ali još malo opeglat), portirna(recepcija)
