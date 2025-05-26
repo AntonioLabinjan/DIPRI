@@ -1,3 +1,5 @@
-todo:  portirna(recepcija)
-Onda to samo sve hitit u škvaru
-+Nighttime scenario
+# Todo
+
+- Portirna (recepcija)  
+- Onda to samo sve hitit u škvaru  
+- Nighttime scenario
