@@ -958,4 +958,13 @@ Leon:
 
 ---
 
-Zadnji; Nosi kofere gostima - nema dijalog
+Bring the luggage by Porter
+
+Receptionist:
+“Hey, could you help with something simple? Some guests just checked in and… well, they’re expecting their luggage. Sooner rather than later.”
+
+Porter:
+“Here’s the cart. Some of those bags feel like they’re full of bricks or... bones. Just don’t ask.”
+
+Receptionist (leans in, lowers voice):
+“And, uh… when you deliver them, don’t stick around. Just drop the bags and leave. If a guest offers you tea—say no. Trust me.”
