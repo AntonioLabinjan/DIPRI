@@ -968,3 +968,206 @@ Porter:
 
 Receptionist (leans in, lowers voice):
 “And, uh… when you deliver them, don’t stick around. Just drop the bags and leave. If a guest offers you tea—say no. Trust me.”
+
+
+NIGHT QUESTS:
+Naravno! Evo čiste verzije **dialogue tree-a za quest "Liars All Around Us"** bez ikakvih emojija, idealno za implementaciju u Unity ili dizajn dokumentaciju:
+
+---
+
+## Dialogue Tree – Quest: "Liars All Around Us"
+
+**NPC: Elegant Man with a Top Hat**
+(Upon entering the eerie bar, the player sees only this NPC sitting at the counter.)
+
+---
+
+### Player approaches the NPC
+
+**NPC:**
+"If you want real coffee... go through the door on the right. It was just brewed, trust me."
+(smiles eerily)
+
+(The player now receives the quest: "Find the coffee". Two doors behind the bar become interactable: LEFT and RIGHT.)
+
+---
+
+## Door Choice – First Attempt
+
+### If Player chooses LEFT door:
+
+* The player enters a dimly lit room.
+* A steaming cup of coffee sits on a table.
+* The player gains sanity (e.g., +10).
+* Ambient sounds: subtle jazz, low humming.
+* NPC remains silent upon return.
+
+### If Player chooses RIGHT door:
+
+* Jumpscare sequence begins:
+
+  * Camera zooms rapidly into pitch black.
+  * Distorted screams and flashes of twisted faces.
+  * Screen goes black.
+* The player loses sanity (e.g., -10).
+* Ambient: pulsating heartbeat, static, faint high-pitched ringing.
+* NPC remains silent upon return.
+
+---
+
+## Door Choice – Subsequent Attempts
+
+**Mechanic:**
+The coffee and jumpscare locations switch after each attempt.
+
+### Example Pattern:
+
+* First time: Coffee behind LEFT → Next time, coffee behind RIGHT.
+* First time: Coffee behind RIGHT → Next time, coffee behind LEFT.
+
+Players who recognize the pattern can always choose correctly on future attempts.
+
+---
+
+## Summary Table
+
+| Attempt        | Chosen Door | Result    | Sanity Change    | Description                |
+| -------------- | ----------- | --------- | ---------------- | -------------------------- |
+| First Attempt  | LEFT        | Coffee    | +10              | Warm light, comfort        |
+| First Attempt  | RIGHT       | Jumpscare | -10              | Screams, visual distortion |
+| Next Attempt   | Opposite    | Coffee    | +10              | Warm light, steaming cup   |
+| Same as Before | Jumpscare   | -10       | Darkness, horror |                            |
+
+---
+
+## Optional Post-Quest Dialogue
+
+If player interacts again with the NPC after completing the task:
+
+**NPC:**
+"You see? Truth... is just timing."
+
+---
+
+
+
+---
+
+## Dialogue Tree – Quest: "Dva gemišta ne moru mi ništa. A tri?"
+
+**NPC: Joža (relaxed local, leaning on the bar)**
+
+---
+
+### Player enters the bar at night
+
+**Joža:**
+"Sit down, friend. One gemišt, to end the day right?"
+
+---
+
+## Gemišt Offer Choices
+
+**Player Response Options:**
+
+1. “Sure, pour me one.” → Proceed to drink gemišt.
+2. “Not now.” → Exit dialogue.
+
+---
+
+## Gemišt Counter – 1st to 3rd glass
+
+### After each gemišt (1–3):
+
+* **Joža (casual tone):**
+
+  * 1st: “You know… the guard hates the noise near the boiler room.”
+  * 2nd: “They say room 308 was never actually built… but someone’s been sleeping there.”
+  * 3rd: “Don’t trust the mirror near the elevator.”
+
+* **Effect:**
+
+  * +sanity
+  * Hint added to journal/log
+
+**Prompt:**
+**Joža:** “Another one?”
+
+**Player options:**
+
+* “Yes.” → Next gemišt.
+* “No, that’s enough.” → Exit dialogue.
+
+---
+
+## 4th Gemišt and Beyond – Risk Threshold
+
+### After 4th gemišt:
+
+* **Joža (smiling too wide):**
+  “Heh... now you’re seeing clearly.”
+
+* **Effects:**
+
+  * Vision blurs
+  * Background warps slightly
+  * Whispers become unintelligible
+  * Non-existent door appears across the room
+  * Sanity -xyz
+
+* **Prompt:**
+  **Joža:** “Want to go deeper?”
+
+**Player options:**
+
+* “Just one more...”
+* “No... something’s wrong.”
+
+---
+
+### If player continues (5th+ gemišt):
+
+* Severe visual distortion
+
+* Hallucinated voices:
+
+  * “The floor remembers.”
+  * “You already fell.”
+  * “Time is a flat puddle.”
+
+* When standing up:
+
+  * Loud crashing sound
+  * Player falls over
+  * Sanity sharply drops
+  * Alert triggered → Guard begins searching
+
+---
+
+## Consequences
+
+* **If ≤3 gemišta:**
+
+  * Gain useful lore
+  * Increased sanity
+  * No negative side effects
+
+* **If >3 gemišta:**
+
+  * Hallucination onset
+  * -sanity
+  * Triggers **guard chase sequence** with:
+
+    * Wobbly camera
+    * Sluggish controls
+    * Heartbeat audio distortion
+
+---
+
+### Optional Post-Quest Dialogue (if player survives):
+
+**Joža (smirking):**
+“Still standing, eh? Not bad... not bad at all.”
+
+---
+
