@@ -1,5 +1,3 @@
-Tu ću pisat detaljan scenarij za igricu jer ako čekan druge da to naprave; ne bude nikad drugo
-
 
 ## QUEST 1 - Lost and confused
 ### **PHASE 1 – DETECTION AND TRACKING**
