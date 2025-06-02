@@ -159,11 +159,10 @@
 3. "Dinner’s free for those who stay alive." (guaranteed success)
 
 
-Here is the **complete English dialogue tree** for the quest **"Night Drip" (Noćna kapljica)**, structured chronologically with all branches and player choices included. It reflects the mysterious, looping atmosphere of the quest and supports replayability.
 
 ---
 
-## **"Night Drip" – Dialogue Tree (English)**
+## **"Night Drip" – Dialogue Tree**
 
 **\[Quest Begins – Player enters dimly lit bar, jukebox hums softly in the background]**
 
