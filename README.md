@@ -8,3 +8,5 @@ NIČ OD TEGA => PREBACIT SE NA QUESTOVE => Glavni svijet se nalazi u jednoj scen
 BOLJE NAPRAVIT JOŠ 1 KAMERU ZA QUEST; UGASIT GLAVNU KAMERU; UPALIT OVU ZA QUEST I ODGIRAT GA TAMO
 NE TREBA PRČKAT PO SCENAMA
 DISABLEAT PLAYERA DA MI NE DELA GLUPOSTI 
+
+Quest 1 konceptualno implementiran => connect to UI; fix laggy stuff
