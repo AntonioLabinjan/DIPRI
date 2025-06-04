@@ -9,12 +9,13 @@ BOLJE NAPRAVIT JOŠ 1 KAMERU ZA QUEST; UGASIT GLAVNU KAMERU; UPALIT OVU ZA QUEST
 NE TREBA PRČKAT PO SCENAMA
 DISABLEAT PLAYERA DA MI NE DELA GLUPOSTI 
 
-Quest 1 konceptualno implementiran => connect to UI; fix laggy stuff
 
 
 
 ZANEMARIT SVE PRETHODNO ČA PIŠE, ALI NE OBRISAT ZA SVAKI SLUČAJ
 
-Implementirani questovi: Zaljevanje biljaka & Biljni labirint
+Implementirani questovi: Zaljevanje biljaka & Biljni labirint & Red po brojevima
+
+Triba samo potakivat na UI
 
 Kad testiran questove, unloadat sve scene osim one koja mi triba (i hitit playera na nju da moren interractat)
