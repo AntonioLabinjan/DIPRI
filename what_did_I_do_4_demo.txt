@@ -1,4 +1,4 @@
-- finišira world i pronalazija si asseta kako su mi trebali
+- finišira world i pronalazija si assete kako su mi trebali
 - napisa scenarij za svaki quest
 - quest 1 implemented -> zalijevanje biljaka
 - quest 2 implemented -> biljni labirint
