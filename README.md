@@ -10,3 +10,9 @@ NE TREBA PRČKAT PO SCENAMA
 DISABLEAT PLAYERA DA MI NE DELA GLUPOSTI 
 
 Quest 1 konceptualno implementiran => connect to UI; fix laggy stuff
+
+
+
+ZANEMARIT SVE PRETHODNO ČA PIŠE, ALI NE OBRISAT ZA SVAKI SLUČAJ
+
+Implementirani questovi: Zaljevanje biljaka & Biljni labirint
