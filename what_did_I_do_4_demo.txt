@@ -1,4 +1,5 @@
 - finišira world i pronalazija si asseta kako su mi trebali
 - napisa scenarij za svaki quest
-- quest 1 implemented -> zaljevanje biljaka
-- quest 2 implemented -> plant maze
+- quest 1 implemented -> zalijevanje biljaka
+- quest 2 implemented -> biljni labirint
+- quest 3 implemented -> red po brojevima
