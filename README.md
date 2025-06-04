@@ -16,3 +16,5 @@ Quest 1 konceptualno implementiran => connect to UI; fix laggy stuff
 ZANEMARIT SVE PRETHODNO ČA PIŠE, ALI NE OBRISAT ZA SVAKI SLUČAJ
 
 Implementirani questovi: Zaljevanje biljaka & Biljni labirint
+
+Kad testiran questove, unloadat sve scene osim one koja mi triba (i hitit playera na nju da moren interractat)
