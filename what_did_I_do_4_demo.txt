@@ -1,3 +1,4 @@
 - finišira world i pronalazija si asseta kako su mi trebali
 - napisa scenarij za svaki quest
 - quest 1 implemented -> zaljevanje biljaka
+- quest 2 implemented -> plant maze
