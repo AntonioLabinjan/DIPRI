@@ -1,4 +1,5 @@
 # Todo
+PROCEDURAL GENERATION SAMO ZA SOBE IZA VRATA, ALI KUHINJE I TO DI SU QUESTOVI NEKA BUDE VAJKA NA ISTIN MISTU
 - Napravit smislene okolne zidove i onda to samo sve hitit u škvaru  
 
 
