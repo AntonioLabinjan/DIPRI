@@ -1,4 +1,3 @@
-Evo organiziranog i preglednog popisa pravila za **generaciju itema** i **generaciju likova** u obliku strukturiranih sekcija:
 
 ---
 
@@ -33,4 +32,3 @@ Evo organiziranog i preglednog popisa pravila za **generaciju itema** i **genera
 
 ---
 
-Ako ti treba skripta za generaciju prema ovom pravilu, mogu ti to složiti u Unity-style C# format.
