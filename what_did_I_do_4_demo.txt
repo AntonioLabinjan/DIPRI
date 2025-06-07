@@ -3,3 +3,5 @@
 - quest 1 implemented -> zalijevanje biljaka
 - quest 2 implemented -> biljni labirint
 - quest 3 implemented -> red po brojevima
+- složija modularne djelove za hodnike
+- napisa draft za generaciju
