@@ -5,3 +5,4 @@
 - quest 3 implemented -> red po brojevima
 - složija modularne djelove za hodnike
 - napisa draft za generaciju
+- pakira sve živo u prefabove za generaciju
