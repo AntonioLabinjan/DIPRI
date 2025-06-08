@@ -55,26 +55,26 @@ TODO:
 
 Pravila za generaciju itema:
 
-WalkieTalkie se pojavljuje samo na recepciji
-Putna torba se pojavljuje samo na recepciji
-Tacna se pojavljuje samo u baru
-Flashlight imaš kod sebe odmah
-Nož (not sure dali ga imamo; ako ga nemamo, nema veze, ni 100% nužan) se pojavljuje samo u kuhinji
-Rule: ovi navedeni itemi se pojavljuju samo u predviđenim sobama, odnosno ne smiju se pojavit u drugima
+- WalkieTalkie se pojavljuje samo na recepciji
+- Putna torba se pojavljuje samo na recepciji
+- Tacna se pojavljuje samo u baru
+- Flashlight imaš kod sebe odmah
+- Nož (not sure dali ga imamo; ako ga nemamo, nema veze, ni 100% nužan) se pojavljuje samo u kuhinji
+- Rule: ovi navedeni itemi se pojavljuju samo u predviđenim sobama, odnosno ne smiju se pojavit u drugima
 
 Pravila za generaciju(spawn) likova:
-Barmen se pojavljuje samo u baru (Bar)
-Noćni policajac/čuvar/monster/entity (whatever you decide to call him) bi treba imat podjednaku šansu da se tijekom noći spawna bilo di (any room)
-Kuhar se pojavljuje samo u kuhinji (Kitchen)
-Portir se pojavljuje na recepciji (Reception) (90% chance) + sobi 404 (Room 404) (10% chance)
-Sobarica se pojavljuje u roomsima (imamo 5 tipova soba) (20% chance for each)
-Igor je isto kao Noćni policajac, samo po danu (spawna se bilo di s podjednakom šansom)
-Djevojčica se spawna samo u dječoj sobi (ChildrenRoom)
-Vrtlar se pojavljuje samo u vrtu (Garden)
-Mehaničar se pojavljuje u skladištu (Warehouse) (70% chance) + Bathroomu (30% chance)
-Slikar se pojavljuje u samo u attelieru
-Nosač se pojavljuje na portirni (Recepetion) (90% chance) + skladištu (Warehouse) (10% chance)
-Tourguide se pojavljuje samo na portirni (reception)
+- Barmen se pojavljuje samo u baru (Bar)
+- Noćni policajac/čuvar/monster/entity (whatever you decide to call him) bi treba imat podjednaku šansu da se tijekom noći spawna bilo di (any room)
+- Kuhar se pojavljuje samo u kuhinji (Kitchen)
+- Portir se pojavljuje na recepciji (Reception) (90% chance) + sobi 404 (Room 404) (10% chance)
+- Sobarica se pojavljuje u roomsima (imamo 5 tipova soba) (20% chance for each)
+- Igor je isto kao Noćni policajac, samo po danu (spawna se bilo di s podjednakom šansom)
+- Djevojčica se spawna samo u dječoj sobi (ChildrenRoom)
+- Vrtlar se pojavljuje samo u vrtu (Garden)
+- Mehaničar se pojavljuje u skladištu (Warehouse) (70% chance) + Bathroomu (30% chance)
+- Slikar se pojavljuje u samo u attelieru
+- Nosač se pojavljuje na portirni (Recepetion) (90% chance) + skladištu (Warehouse) (10% chance)
+- Tourguide se pojavljuje samo na portirni (reception)
 
 #####################################################################################
 ČA JOŠ MORAN:
