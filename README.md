@@ -37,7 +37,7 @@ Prefabs
 	prazne sekcije za merge points
 	zid, plafon, pod DONE
 
-	
+Assets/WorldBuildingComponents => prefabovi za hodnike
 Napisat docks koje zone bi imala koja soba 
 Koji itemi bi se našli u kojoj sobi
 Any extra rules?
