@@ -4,16 +4,23 @@ public class DraggableItem : MonoBehaviour
 {
     public int itemNumber;
     public float pickupRange = 3f;
-    public float dropRange = 1f;
 
     private Transform player;
     private Vector3 startPosition;
     private bool isCarried = false;
+    private DropZone currentDropZone = null;
+    private Rigidbody rb;
 
     private void Start()
     {
         startPosition = transform.position;
         itemNumber = Random.Range(0, 100);
+
+        rb = GetComponent<Rigidbody>();
+        if (rb == null)
+        {
+            Debug.LogError("Nema Rigidbody komponentu!");
+        }
 
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
@@ -32,16 +39,19 @@ public class DraggableItem : MonoBehaviour
         if (!isCarried && distanceToPlayer <= pickupRange && Input.GetKeyDown(KeyCode.E))
         {
             isCarried = true;
+            rb.isKinematic = true;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
             Debug.Log($"Pokupio predmet, broj: {itemNumber}");
         }
 
-        // Ako nosis item – prati poziciju ispred igraca
+        // Ako nosis item ï¿½ prati poziciju ispred igraca
         if (isCarried)
         {
             Vector3 holdPosition = player.position + player.forward * 1.5f + Vector3.up * 1f;
             transform.position = Vector3.Lerp(transform.position, holdPosition, Time.deltaTime * 10f);
 
-            // Baci item kad si blizu drop zone i stisnes E
+            // Drop samo ako si unutar drop zone
             if (Input.GetKeyDown(KeyCode.E))
             {
                 TryDrop();
@@ -51,33 +61,67 @@ public class DraggableItem : MonoBehaviour
 
     private void TryDrop()
     {
-        Collider[] hits = Physics.OverlapSphere(transform.position, dropRange);
-        foreach (var hit in hits)
+        if (currentDropZone == null)
         {
-            DropZone dropZone = hit.GetComponent<DropZone>();
-            if (dropZone != null)
-            {
-                if (itemNumber >= dropZone.minRange && itemNumber <= dropZone.maxRange)
-                {
-                    Debug.Log("Tocno! Item ubacen.");
-                    ShelfQuestManager.Instance.IncreaseCorrectCount();
-                    Destroy(gameObject);
-                }
-                else
-                {
-                    Debug.Log("Kriva polica! Reset.");
-                    ResetPosition();
-                }
-                return;
-            }
+            Debug.Log("Nisi tocno na polici.");
+            return;
         }
 
-        Debug.Log("Nisi blizu ni jedne police.");
+        if (itemNumber >= currentDropZone.minRange && itemNumber <= currentDropZone.maxRange)
+        {
+            Debug.Log("Tocno! Item ubacen.");
+            ShelfQuestManager.Instance.IncreaseCorrectCount();
+
+            // Snap na sredinu police i unisti objekt
+            transform.position = currentDropZone.transform.position + Vector3.up * 0.5f;
+            isCarried = false;
+            rb.isKinematic = false;
+            Destroy(gameObject);
+        }
+        else
+        {
+            Debug.Log("Kriva polica! Reset.");
+            ResetPosition();
+        }
     }
 
     public void ResetPosition()
     {
         isCarried = false;
+        rb.isKinematic = false;
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
         transform.position = startPosition;
+        currentDropZone = null;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        DropZone dropZone = other.GetComponent<DropZone>();
+        if (dropZone != null)
+        {
+            currentDropZone = dropZone;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        DropZone dropZone = other.GetComponent<DropZone>();
+        if (dropZone != null && dropZone == currentDropZone)
+        {
+            currentDropZone = null;
+        }
+    }
+
+    public void FixToShelf(Transform shelf)
+    {
+        isCarried = false;
+        transform.SetParent(shelf); // postavlja kao dijete police
+        transform.position = shelf.position + Vector3.up * 0.2f; // malo iznad police
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+        rb.isKinematic = true;
+        GetComponent<Collider>().enabled = false; // da ne trigerira ponovno
+        this.enabled = false; // onemoguci daljnji pickup
     }
 }
