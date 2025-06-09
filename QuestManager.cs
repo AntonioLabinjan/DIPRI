@@ -1,3 +1,4 @@
+// For Plant watering quest
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -65,8 +66,8 @@ public class QuestManager : MonoBehaviour
 
     IEnumerator OnQuestComplete()
     {
-        Debug.Log("[QuestManager] Quest zavröio: You should leave hotel.");
+        Debug.Log("[QuestManager] Quest zavr≈°io: You should leave hotel.");
         yield return new WaitForSeconds(3f);
-        // Daljnja logika nakon zavröetka questa
+        // Daljnja logika nakon zavr≈°etka questa
     }
 }
