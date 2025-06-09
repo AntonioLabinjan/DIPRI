@@ -2,9 +2,9 @@
 
 public class Plant : MonoBehaviour
 {
-    public float height;          // visina biljke
-    public string revealedWord;   // rijec koja se pojavi nakon zalijevanja
+    public float height;          
+    public string revealedWord;   
 
     [HideInInspector]
-    public bool isWatered = false; // je li biljka već zalivena
+    public bool isWatered = false; 
 }
