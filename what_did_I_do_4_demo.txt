@@ -6,3 +6,5 @@
 - složija modularne djelove za hodnike
 - napisa draft za generaciju
 - pakira sve živo u prefabove za generaciju
+- napravija obastacles koji invertiraju kontrole
+- implementira mehaniku inverzije kontrola i doda je u postojeći movement script
