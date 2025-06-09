@@ -14,7 +14,7 @@ public class DropZone : MonoBehaviour
             {
                 Debug.Log("Tocno!");
                 ShelfQuestManager.Instance.IncreaseCorrectCount();
-                Destroy(item); // ili item.gameObject.SetActive(false)
+                Destroy(item); 
             }
             else
             {
