@@ -1,5 +1,6 @@
-// Updated Juraj's script with control inversion
+// updated Juraj's script with speedup and control inversion
 using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,13 +26,18 @@ public class PlayerController : MonoBehaviour
     private float controlRotationOffset = 0f;
     private int inputRotation = 0; // 0, 90, 180, 270 stupnjeva
 
-
+    private float originalWalkSpeed;
+    private float originalSneakSpeed;
+    private Coroutine speedBoostCoroutine;
 
     void Start()
     {
         cc = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         defaultCamLocalPos = playerCamera.localPosition;
+
+        originalWalkSpeed = walkSpeed;
+        originalSneakSpeed = sneakSpeed;
     }
 
     void Update()
@@ -107,6 +113,27 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    public void ActivateSpeedBoost(float duration)
+    {
+        if (speedBoostCoroutine != null)
+            StopCoroutine(speedBoostCoroutine);
 
+        speedBoostCoroutine = StartCoroutine(SpeedBoost(duration));
+    }
+
+    private IEnumerator SpeedBoost(float duration)
+    {
+        walkSpeed = originalWalkSpeed * 2f;
+        sneakSpeed = originalSneakSpeed * 2f;
+
+        Debug.Log("Speed boost activated!");
+
+        yield return new WaitForSeconds(duration);
+
+        walkSpeed = originalWalkSpeed;
+        sneakSpeed = originalSneakSpeed;
+
+        Debug.Log("Speed boost done.");
+    }
 
 }
