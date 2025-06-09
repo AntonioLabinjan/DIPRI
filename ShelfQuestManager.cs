@@ -27,7 +27,7 @@ public class ShelfQuestManager : MonoBehaviour
         if (correctItemCount >= totalRequiredItems)
         {
             Debug.Log("Quest complete!");
-            // mozes ovdje pokrenuti animaciju, sljedecu scenu itd.
+            
         }
     }
 }
