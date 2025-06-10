@@ -81,6 +81,6 @@ Pravila za generaciju(spawn) likova:
 - prazne sekcije za merge
 - definirat sekcije unutar soba
 
-
+POBOLJŠAT OVA 3 QUESTA DA IMAJU JAČI FAILSTATE
 
 
