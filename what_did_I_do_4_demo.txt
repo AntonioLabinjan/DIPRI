@@ -10,3 +10,4 @@
 - napravija pickups koji ubrzavaju playera
 - implementira mehaniku inverzije kontrola i doda je u postojeći movement script
 - implementira speedup mehaniku
+- implmentira kretanje među scenama
