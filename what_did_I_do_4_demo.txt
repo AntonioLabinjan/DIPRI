@@ -10,4 +10,5 @@
 - napravija pickups koji ubrzavaju playera
 - implementira mehaniku inverzije kontrola i doda je u postojeći movement script
 - implementira speedup mehaniku
+- implementira timer failstate u maze
 - implmentira kretanje među scenama => aktivacija questova
