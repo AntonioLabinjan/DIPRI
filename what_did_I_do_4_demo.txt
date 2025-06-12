@@ -4,6 +4,7 @@
 - quest 2 implemented -> biljni labirint
 - quest 3 implemented -> red po brojevima
 - složija modularne djelove za hodnike
+- složija sve moguće kombinacije merge sekcija
 - napisa draft za generaciju
 - pakira sve živo u prefabove za generaciju
 - napravija obastacles koji invertiraju kontrole 
