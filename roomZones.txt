@@ -1,0 +1,95 @@
+RoomZones/RoomSections
+
+Bathroom 
+	- mislin da može bit 1 zona jer je to najmanja prostorija koju imamo i da se u njoj randomly rasporede
+	- tuš kabina
+	- kada
+	- 2 školjke
+	- umivaonik
+	- mašina za prat robu
+	- ormarić
+
+Kitchen
+	- 2 zone (ispred i iza šanka)
+	Ispred šanka: 
+		- dining tables
+		- chairs
+	
+	Iza šanka:
+		- refrigerator
+		- stove
+		- napa
+		- cupboards
+		
+Pool
+   - ne znan dali ima potrebe da se tu ni mučiš slagat generaciju, pošto imamo samo suncobrane
+   - eventualno napravit 3 zone za svaki pojedini bazen i randomly raspoređivat suncobrane, ali ne čini mi se potrebno tbh
+   
+Elevator
+	- sve je 1 zona;
+	- jedini added itemi tamo su 2 carpeta, pa se jedino more generirat dali će se pojavit ili ne, al opet mislin da se ne treba mučit s tin
+	
+Atelier
+	- 4 zone (4 equal square pieces)
+	- u svakoj zoni se može pojavit nešto od stvari iz sobe
+	- chest with doors, stalak za slike
+	- discobolous statues - u svakoj zoni bar 1
+	
+RoomEntry 
+	- ulaz u sobu
+	- nema zone, nego se generira u hodnicima
+	- more bit s bilo koje strane hodnika
+	
+Room404
+	- ča kaotičnije, to bolje
+	- ne znan dali je bolje da bude 1 zona u kojoj se može pojavit bilo koji element ili 4-8 zona u kojima se opet more pojavit bilo koji element
+	
+Bar 
+	- 3 zone (po meni bi imalo smisla pratit onaj L-turn na carpetu koji odvaja stolove&stolice od šankova)
+	- ljevi red stolova - 1 zona
+	- desni red stolova - 2. zona
+	- šankovi - 3. zona
+	- stolovi i stolice su po defaultu 8 sa svake strane carpeta
+	- evantualno napravit da ne mora bit svaki put 8 nego da se rasporede različito (10 na jednoj, 6 na drugoj)
+	- šankovi imaju svaki 4 stolice uz sebe (to bi trebalo ostat tako, jer više od 4 ne stane, a manje izgleda premalo)
+	- boce na šankovima moru ostat tako
+	
+ChildrenRoom
+	- pošto basically imamo grid za battleship na podo, mapirat ću po temu
+	A0-E4 - 1. zona
+	A5-F9 - 2. zona
+	F0-J4 - 3. zona
+	F5-JB - 4. zona
+	- u bilo kojoj od njih se more pojavit krevet, ali smije se pojavit samo 1 krevet
+	- doll se može pojavit u bilo kojoj zoni
+	- teddyBears se pojavljuju u onoj zoni di je i krevet
+	- ove sitne igračke (chest, wooden rings i sl.) se mogu pojavit u bilo kojoj zoni, bez nekih dodatnih pravila; ideja sobe je da bude neuredna, pa anything goes
+
+Reception
+	- 2 zone (straight down the middle)
+	- carpet se pojavljuje samo u jednoj (lijevo ili desno)
+	- suitcase se more pojavit u bilo kojoj
+	- stolice se moraju pojavit u svakoj
+	- 2 police se moraju pojavit u svakoj
+
+Room1
+	- 2 zone (straight down the middle)
+	- kauč se pojavljuje samo u 1
+	- televizija se pojavljuje u onoj u kojoj nije kauč
+	- stolovi moru bilo kako bez ograničenja
+	
+Room2 
+	- isti vrag ko room 1; samo su boje malo modificirane
+
+Room3
+	- 2 zone (opet po sredini)
+	- u svakoj mora bit 1 kauč
+	- stolići moru u bilo kojoj (čak i 2 u istoj)
+	- ormarići moru u bilo kojoj (čak i 2 u istoj)
+	- televizija i zvučnik samo u jednoj
+
+Room4
+	- 2 zone (po sredini)
+	- u svakoj 2 kauča
+	- carpet more bilo di
+	- zvučnik more bilo di
