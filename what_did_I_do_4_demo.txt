@@ -16,3 +16,4 @@
 - napisa sve zone za sve sobe i iteme koji se tamo moru pojavit (+1.5 h na ono ča san napisa na predaji hehe)
 - postavlja likove na scene (+ 1 h)
 - pronalazija likove koji su falili !!! I implementira aktivaciju questova kroz "interakciju" s likovima
+- dodava sockete za world generation; ali rotacija je retardirana
