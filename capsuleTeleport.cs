@@ -15,6 +15,8 @@ public class CapsuleTeleport : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null)
+            Debug.LogError("[CapsuleTeleport] Nema objekta s tagom 'Player'!");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,33 +34,37 @@ public class CapsuleTeleport : MonoBehaviour
     {
         isTeleporting = true;
 
-       
         originalPlayerPosition = player.transform.position;
 
-        // Ucitaj MagicWindow scenu additivno preko World scene
         magicWindowLoadOp = SceneManager.LoadSceneAsync("MagicWindow", LoadSceneMode.Additive);
         yield return new WaitUntil(() => magicWindowLoadOp.isDone);
 
-        // Iskljuci aktivnost World scene da bismo "presli" u MagicWindow
-        Scene worldScene = SceneManager.GetActiveScene();
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("MagicWindow"));
 
-        // Mozes po zelji ovdje teleportirati igraca na odredenu poziciju u MagicWindow sceni
-        // player.transform.position = new Vector3(x, y, z);
+        Debug.Log("[CapsuleTeleport] Igrac teleportiran u MagicWindow.");
 
-        // cekaj 30 sekundi u MagicWindow sceni
         yield return new WaitForSeconds(teleportDuration);
 
-        // Aktiviraj opet World scenu i deaktiviraj MagicWindow scenu
-        SceneManager.SetActiveScene(worldScene);
+        Scene worldScene = SceneManager.GetSceneByName("World");
+        if (!worldScene.IsValid())
+        {
+            Debug.LogError("[CapsuleTeleport] World scena nije ucitana!");
+        }
+        else
+        {
+            SceneManager.SetActiveScene(worldScene);
+        }
 
-        // Izbaci (unload) MagicWindow scenu
         AsyncOperation unloadMagic = SceneManager.UnloadSceneAsync("MagicWindow");
         yield return new WaitUntil(() => unloadMagic.isDone);
 
-        // Vrati igraca na pocetnu poziciju u World sceni
-        player.transform.position = originalPlayerPosition;
+        // Pomakni poziciju malo, npr. 2 metra naprijed po Z osi (ili odaberi neki drugi smjer)
+        Vector3 offset = new Vector3(0f, 0f, 2f);
+        player.transform.position = originalPlayerPosition + offset;
+
+        Debug.Log("[CapsuleTeleport] Igrac vracen u World na poziciju sa offsetom.");
 
         isTeleporting = false;
     }
+
 }
