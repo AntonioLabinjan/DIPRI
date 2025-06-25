@@ -22,3 +22,5 @@
 
 
 - implementirane tabletice za postat drugged up
+- pospaja dijaloge u questove
+- poslaga world da je igra donekle playable
