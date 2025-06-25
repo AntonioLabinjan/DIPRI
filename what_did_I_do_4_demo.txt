@@ -24,3 +24,4 @@
 - implementirane tabletice za postat drugged up
 - pospaja dijaloge u questove
 - poslaga world da je igra donekle playable
+- igra je igriva; nema procedural generacije jer se neman vremena zajebavat još i s tin...
