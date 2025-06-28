@@ -1,3 +1,3 @@
 # My todo
-- IMPLEMENTIRAT GEMBAČ MINI GAME S DIJALOGON I POSLJEDICAMA
+- IMPLEMENTIRAT POSLJEDICE U GEMBAČ
 - Pofixat whacky merge mjesta raznih djelova
